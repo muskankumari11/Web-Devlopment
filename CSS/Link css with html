@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:blue;">hello css</h1>
+    <h2>welcome guys</h2>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    h2{
+        color:brown;
+    }
+    </style>
+    <h3>hii</h3>
+    }
+    <u1>
+        <li>Item one</li>
+        <li class=""special">Itetm two</li>
+        <li>Item<en>three</en>en></en></li>
+    </u1>
+</body>
+</html>
