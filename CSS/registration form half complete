@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<form action="/action.php">
+    <h1 class="main_heading">Registration Form</h1>
+    <br>
+    <h4>User Information</h4>
+    <input type="text" placeholder="username">
+    <br><br>
+    <input type="password" placeholder="password">
+    <br><br>
+    <h5>Select Your Class</h5>
+    <br>
+    class:
+    <br>
+    <lebel for="101">
+    <input type="radio" value="class XI" name="class" id="101">class XI
+    </lebel>
+    <br>
+    <lebel for="102">
+    <input type="radio" value="class XII" name="class" id="102">class XII
+</lebel>
+<h5>Select Favourite Subject</h5>
+<br>
+subject:
+<br>
+<level for="Math">
+    <input type="checkbox" value="Math" name="subject" id="101">Math
+    <br>
+</lebel>
+<level for="English">
+    <input type="checkbox" value="English" name="subject" id="102">English
+    <br>
+</lebel>
+<level for="Physics">
+    <input type="checkbox" value="Physics" name="subject" id="103">Physics
+    <br>
+</lebel>
+<level for="Computer">
+    <input type="checkbox" value="Computer" name="subject" id="104">Computer
+    <br>
+</lebel>
+<br>
+<h4>Select Your City</h4>
+<select name="City">
+<option value="Delhi">Delhi</option>
+<option value="Banglore">Banglore</option>
+<option value="Pune">Pune</option>
+<option value="Mumbai">Mumbai</option>
+</select>
+<br>
+<br>
+<textarea name="Feedback" id="101" placeholder="Please give your feedback here" rows="5">Feedback</textarea>
+<input type="Submit" value="Submit">
+</form>
+</body>
+</html>
