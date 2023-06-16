@@ -1,0 +1,38 @@
+<!-- display flex -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>column layout methods</title>
+    <style>
+        p{
+            padding:0;
+            margin:0;
+            font-weight:700px;
+        }
+        li{
+            list-style: none;
+        }
+        .container{
+            padding:10px;
+            background-color:gold;
+            display:flex;
+            gap:6rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>page layout methods</p>
+
+        <li><a href="./html-table.html">HTML</li>
+            <li><a href="./inline-block.html">inlineblock</li>
+                <li><a href="./absolute-position.html">absoluteposition</li>
+                    <li><a href="./float.html">float</li>
+                        <li><a href="./flex.html">flexbox</li>
+    </div>
+</body>
+</html>
