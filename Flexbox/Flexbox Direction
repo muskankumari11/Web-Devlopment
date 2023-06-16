@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Direction</title>
+    <style>
+        .container{
+            color:white;
+            border:5px solid gold;
+            display:flex;
+            flex-direction:row;
+            /* flex-direction:column; */
+        }
+
+        /* select all of the direct children */
+        .container>*{
+            flex-basis:500px;
+        }
+
+        .red{
+            background-color:red;
+            /* flex-basis: 100px; */
+        }
+        .orange{
+            background-color:orange;
+            /* flex-basis:100px; */
+        }
+        .blue{
+            background-color:blue;
+            /* flex-basis:100px; */
+        }
+        .green{
+            background-color:green;
+            /* flex-basis:100px; */
+        }
+        .yellow{
+            background-color:yellow;
+            /* flex-basis:100px; */
+        }
+        .skyblue{
+            background-color:skyblue;
+            /* flex-basis:100px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="red">red</div>
+    <div class="orange">orange</div>
+    <div class="blue">blue</div>
+    <div class="green">green</div>
+    <div class="yellow">yellow</div>
+    <div class="skyblue">skyblue</div>
+    </div>
+</body>
+</html>
