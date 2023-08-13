@@ -1,0 +1,6 @@
+var dogAge=prompt("how ia your dog age");
+var humanAge=((dogAge-2)*4)+21;
+alert("your dog is "+humanAge+"years old in human years.");
+
+/*after ctrl+entr-->  how is your dog age entering->7
+your dog is 41years old in human years./*
