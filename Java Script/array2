@@ -1,0 +1,9 @@
+//checking element exits
+var guestList=["ram","nam","sam","kam","ham"];
+var guestName=prompt("what is your name");
+if(guestList.includes(guestName)){
+    alert("welcome");
+}
+else{
+    alert("sorry,maybe next time");
+}
