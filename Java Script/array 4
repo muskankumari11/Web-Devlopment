@@ -1,0 +1,7 @@
+//whose buying llunch code challenge
+function whospaying(names) {
+    var numberofpeople = names.length;
+    var randompersonposition = Math.floor(Math.random() * numberofpeople);
+    var randomperson = names[randompersonposition];
+    return randomperson + " is going to buy lunch today";
+}
