@@ -1,0 +1,5 @@
+console.log("hello guys");
+var a=3;
+console.log(a);
+ a="harry";
+console.log(a);
