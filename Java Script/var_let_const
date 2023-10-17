@@ -1,0 +1,13 @@
+console.log("var const and let");
+let b = "harry";
+const author = "harry";
+author = 5; 
+b = 4;
+const harry = 0;
+let c = null;
+let d = undefined;
+{
+  let b = this;
+  console.log(b);
+}
+console.log(b);
