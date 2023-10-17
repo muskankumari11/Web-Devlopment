@@ -1,0 +1,19 @@
+//nnssbbu
+let a=null;
+let b=345;
+let c=true;
+let d=BigInt("567")+BigInt("3");
+let e="harry";
+let f=Symbol("i am a nice symbol");
+let g=undefined
+console.log(a,b,c,d,e,f,g);
+console.log(typeof d);
+//object in js
+const item = {
+  "harry": true,
+  "carry":false,
+  "sarry":65,
+  "tarry":undefined
+}
+console.log(item["harry"])
+console.log(item["tarry"])
