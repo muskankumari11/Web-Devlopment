@@ -1,0 +1,19 @@
+let name="harry"
+// console.log(name.length)
+console.log(name[0])
+
+let friend="prakash"
+console.log(friend)
+// let myFriend="subh"
+// console.log(myFriend)
+//template literals
+let boy1="pramod"
+let boy2="rama"
+//rama is a friend of pramod
+let sentence = `${boy2} is a friend of ${boy1}`;
+console.log(sentence)
+//Escape Sequence Character
+// let fruit='Bana\'na'
+// console.log(fruit.length)
+let fruit="Bana\"na"
+console.log(fruit)
