@@ -1,0 +1,23 @@
+//chepter4 practice set
+//ques1. what will be the following print in javascript console.log("/har\".length)
+let str = "har\""
+console.log(str.length)
+//ques2. Explore the includes,starts with & ends with functions of a string
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+const word = 'fox2';
+console.log(sentence.includes(word))
+
+console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+// Expected output: "The word "fox" is in the sentence"
+//ques3. write a program to convert a given string to lowercase
+let name="Rama"
+console.log(name.toLowerCase())
+//ques4. extract the amount out of the string "please give rs 1000"
+let str2="please give rs 1000"
+let amount=Number.parseInt(str2.slice(15))
+console.log(typeof amount)
+//try to change fourth character of a given string where you able to do it?
+let friend="Deepika"
+friend[3]="R"
+console.log(friend) //friend is not change because string is immutable
