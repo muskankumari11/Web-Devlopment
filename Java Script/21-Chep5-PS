@@ -1,0 +1,35 @@
+//Ques1. Create an array of numbers and take input from the user to add numbers to the array
+// let arr=[1,2,3,4,55,68,85]
+//   let a=prompt("enter anumber")
+// n=Number.parseInt(a)
+// arr.push(a)
+// console.log(arr)
+//Ques2. Keep adding numbers to the array in 1. until 0 is adding to the array
+// let arr=[1,2,3,4,55,68,85]
+// let a
+// do{
+//   let a=prompt("enter a number")
+//   n=Number.parseInt(a)
+//   arr.push(a)
+//   console.log(arr)
+// }
+//   while(a!=0);
+//   console.log(arr)
+//Ques3. Filter for numbers divisible by 10 from a given array
+// let arr=[1,2,3,4,55,68,85,20,22,60,110]
+// let n=arr.filter((x)=>{
+//   return x%10==0
+// })
+// console.log(n)
+//Ques4. Create an array of square of given numbers
+// let arr=[1,2,3,4,5,6,7,8,9]
+// let a=arr.map((x)=>{
+//   return x*x
+// })
+// console.log(a)
+//Ques5. Use reduce to calculate factorial of a given number from an array of first n natural numbers (n being the number whose factorial needs to be calculated)
+let arr=[1,2,3,4,5]
+let n=arr.reduce((x1,x2)=>{
+  return x1*x2
+})
+console.log(n)
