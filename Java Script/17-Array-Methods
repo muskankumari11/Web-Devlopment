@@ -1,0 +1,13 @@
+let num=[4,22,3,55,6,7]
+let b=num.toString() //b is now a string
+console.log(b, typeof b)
+let c=num.join("_")
+console.log(c, typeof c)
+// let r=num.pop() //pop returns the pop elements
+// console.log(num,r)
+// let r=num.push(44) //push returns the new array length (its like pop)
+// console.log(num,r)
+// let r=num.shift() 
+// console.log(num,r) //removes element from the start of the array
+let r=num.unshift(34) 
+console.log(num,r) //like push
