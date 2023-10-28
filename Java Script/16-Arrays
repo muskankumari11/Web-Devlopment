@@ -1,0 +1,14 @@
+let marks_class_12=[99,40,30,50,null,"my"]
+console.log(marks_class_12)
+marks_class_12[6]=76
+console.log(marks_class_12[0])
+console.log(marks_class_12[1])
+console.log(marks_class_12[2])
+console.log(marks_class_12[3])
+console.log(marks_class_12[4])
+console.log(marks_class_12[5])
+console.log(marks_class_12[6])
+console.log("the length of marks_class_12 is",marks_class_12.length)
+marks_class_12[6]=76 //adding a new value in the array
+marks_class_12[6]=80 //changing the value of an array
+console.log(typeof marks_class_12) //type of array is always object
