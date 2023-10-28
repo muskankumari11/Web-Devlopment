@@ -1,0 +1,7 @@
+var n = Math.floor(Math.random() * 101); // Generate a random integer between 0 and 100
+var guess = parseInt(prompt("Enter a number between 0 and 100:"));
+if (guess == n) {
+  console.log("You guessed the correct number!");
+} else {
+  console.log("Try again. The correct number was: " + n);
+}
