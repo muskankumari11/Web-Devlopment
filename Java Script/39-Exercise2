@@ -1,0 +1,27 @@
+//create sun,water and gun game in javascript
+//The game should ask you to enter W,G or S the computer should be able to randomly generate S,W G and declear win or loss using alert
+//use prompt alert and confirm whatever is required
+let user = prompt("Enter S, W, or G");
+let cpui = Math.floor(Math.random() * 3);
+let cpu = ["S", "W", "G"][cpui];
+
+const match = (cpu, user) => {
+  if (cpu === user) {
+    return "Nobody";
+  } else if (cpu === "S" && user === "W") {
+    return "cpu";
+  } else if (cpu === "S" && user === "G") {
+    return "User";
+  } else if (cpu === "G" && user === "W") {
+    return "User";
+  } else if (cpu === "G" && user === "S") {
+    return "cpu";
+  } else if (cpu === "W" && user === "G") {
+    return "User";
+  } else if (cpu === "W" && user === "S") {
+    return "cpu";
+  }
+};
+
+let result = match(cpu, user);
+document.write(`cpu: ${cpu} and <br> user: ${user} <br> The winner is: ${result.toUpperCase()}`);
